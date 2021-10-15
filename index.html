@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <link href="./css/style.css" rel="stylesheet">
+    </link>
+    <title>Weather App</title>
+</head>
+
+<body>
+    <div class="weather-wrapper">
+        <div class="weather-city-wrapper">
+            <img class="back-img" src="jon-_xVOXs1GVvk-unsplash.jpg" />
+            <div class="weather">
+                <p class="degree"></p>
+                <div class="city-time-details">
+                    <div class="city"></div>
+                    <div class="date"></div>
+                </div>
+                <div class="">
+                    <img src="" class="icon" />
+                    <div class="description"></div>
+                </div>
+            </div>
+        </div>
+        <div class=" weather-details-wrapper">
+            <div class="weather-action">
+                <input placeholder="Enter location" class="weather-input" type="text" />
+                <button class="weather-button">&#128269;</button>
+            </div>
+            <div class="city-list">
+                <ul>
+                    <li>Not city searched yet.</li>
+                </ul>
+                <hr style="margin-top: 10px;border: 1px solid #808080ba;margin-right: 2rem;margin-left: 2rem;">
+            </div>
+            <div class="weather-details-container">
+                <div class="weather-details">
+                    <p style="font-weight: bold;">Weather Details</p>
+                    <div class="info">
+                        <p>Humidity</p>
+                        <p class="humidity">NA</p>
+                    </div>
+                    <div class="info">
+                        <p>Cloudy</p>
+                        <p class="cloudy">NA</p>
+                    </div>
+                    <div class="info">
+                        <p>Wind</p>
+                        <p class="wind">NA</p>
+                    </div>
+                    <div class="info">
+                        <p>Pressure</p>
+                        <p class="pressure">NA</p>
+                    </div>
+                    <hr style="border: 1px solid #808080ba;">
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="loader">
+        <div class="loader-box"></div>
+    </div>
+    <script src="./js/index.js"></script>
+</body>
+
+</html>
